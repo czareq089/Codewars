@@ -12,3 +12,4 @@
 /home/czareq089/Documents/GitHub/codewars/codewars/obj/Debug/net8.0/codewars.pdb
 /home/czareq089/Documents/GitHub/codewars/codewars/obj/Debug/net8.0/codewars.genruntimeconfig.cache
 /home/czareq089/Documents/GitHub/codewars/codewars/obj/Debug/net8.0/ref/codewars.dll
+/home/czareq089/Documents/GitHub/codewars/codewars/obj/Debug/net8.0/codewars.sourcelink.json

@@ -7,6 +7,7 @@ abstract class Program
         bool flag = true;
         Console.Clear();
         Console.SetWindowSize(88, 28);
+        Console.OutputEncoding = System.Text.Encoding.UTF8;
         Random r = new Random();
         Array colors = Enum.GetValues((typeof(ConsoleColor)));
         Console.ForegroundColor = (ConsoleColor)colors.GetValue((r.Next(colors.Length)));

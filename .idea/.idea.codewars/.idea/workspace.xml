@@ -7,7 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="caf94cec-541e-46f3-813c-c3a9ab1e988a" name="Changes" comment="" />
+    <list default="true" id="caf94cec-541e-46f3-813c-c3a9ab1e988a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/codewars/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/codewars/Program.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,7 +79,7 @@
       <option name="presentableId" value="Default" />
       <updated>1719486192362</updated>
       <workItem from="1719486194059" duration="649000" />
-      <workItem from="1719501013323" duration="5034000" />
+      <workItem from="1719501013323" duration="5702000" />
     </task>
     <servers />
   </component>
