@@ -1,0 +1,14 @@
+/home/czareq089/Documents/GitHub/codewars/codewars/bin/Debug/net8.0/codewars
+/home/czareq089/Documents/GitHub/codewars/codewars/bin/Debug/net8.0/codewars.deps.json
+/home/czareq089/Documents/GitHub/codewars/codewars/bin/Debug/net8.0/codewars.runtimeconfig.json
+/home/czareq089/Documents/GitHub/codewars/codewars/bin/Debug/net8.0/codewars.dll
+/home/czareq089/Documents/GitHub/codewars/codewars/bin/Debug/net8.0/codewars.pdb
+/home/czareq089/Documents/GitHub/codewars/codewars/obj/Debug/net8.0/codewars.GeneratedMSBuildEditorConfig.editorconfig
+/home/czareq089/Documents/GitHub/codewars/codewars/obj/Debug/net8.0/codewars.AssemblyInfoInputs.cache
+/home/czareq089/Documents/GitHub/codewars/codewars/obj/Debug/net8.0/codewars.AssemblyInfo.cs
+/home/czareq089/Documents/GitHub/codewars/codewars/obj/Debug/net8.0/codewars.csproj.CoreCompileInputs.cache
+/home/czareq089/Documents/GitHub/codewars/codewars/obj/Debug/net8.0/codewars.dll
+/home/czareq089/Documents/GitHub/codewars/codewars/obj/Debug/net8.0/refint/codewars.dll
+/home/czareq089/Documents/GitHub/codewars/codewars/obj/Debug/net8.0/codewars.pdb
+/home/czareq089/Documents/GitHub/codewars/codewars/obj/Debug/net8.0/codewars.genruntimeconfig.cache
+/home/czareq089/Documents/GitHub/codewars/codewars/obj/Debug/net8.0/ref/codewars.dll

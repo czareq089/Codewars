@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "d/jM/oiPw6M=",
+  "success": true,
+  "projectFilePath": "/home/czareq089/Documents/GitHub/codewars/codewars/codewars.csproj",
+  "expectedPackageFiles": [
+    "/home/czareq089/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.6/microsoft.aspnetcore.app.ref.8.0.6.nupkg.sha512"
+  ],
+  "logs": []
+}
