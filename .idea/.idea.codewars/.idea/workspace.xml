@@ -8,7 +8,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="caf94cec-541e-46f3-813c-c3a9ab1e988a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/codewars/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/codewars/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.codewars/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.codewars/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codewars/bin/Debug/net8.0/codewars.dll" beforeDir="false" afterPath="$PROJECT_DIR$/codewars/bin/Debug/net8.0/codewars.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codewars/bin/Debug/net8.0/codewars.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/codewars/bin/Debug/net8.0/codewars.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codewars/obj/Debug/net8.0/codewars.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/codewars/obj/Debug/net8.0/codewars.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codewars/obj/Debug/net8.0/codewars.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/codewars/obj/Debug/net8.0/codewars.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codewars/obj/Debug/net8.0/codewars.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/codewars/obj/Debug/net8.0/codewars.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codewars/obj/Debug/net8.0/codewars.dll" beforeDir="false" afterPath="$PROJECT_DIR$/codewars/obj/Debug/net8.0/codewars.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codewars/obj/Debug/net8.0/codewars.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/codewars/obj/Debug/net8.0/codewars.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codewars/obj/Debug/net8.0/codewars.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/codewars/obj/Debug/net8.0/codewars.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codewars/obj/Debug/net8.0/ref/codewars.dll" beforeDir="false" afterPath="$PROJECT_DIR$/codewars/obj/Debug/net8.0/ref/codewars.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codewars/obj/Debug/net8.0/refint/codewars.dll" beforeDir="false" afterPath="$PROJECT_DIR$/codewars/obj/Debug/net8.0/refint/codewars.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codewars/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/codewars/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codewars/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/codewars/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,13 +37,16 @@
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2iSZy8XZDQEER2xvprsv8AE9h7q" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    ".NET Project.codewars.executor": "Run",
+    ".NET Project.codewars.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "node.js.detected.package.eslint": "true",
@@ -52,9 +67,9 @@
 }]]></component>
   <component name="RunManager">
     <configuration name="codewars" type="DotNetProject" factoryName=".NET Project">
-      <option name="EXE_PATH" value="" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/codewars/bin/Debug/net8.0/codewars" />
       <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/codewars/bin/Debug/net8.0" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
@@ -64,7 +79,7 @@
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
       <option name="PROJECT_KIND" value="DotNetCore" />
-      <option name="PROJECT_TFM" value="" />
+      <option name="PROJECT_TFM" value="net8.0" />
       <method v="2">
         <option name="Build" />
       </method>
@@ -79,7 +94,8 @@
       <option name="presentableId" value="Default" />
       <updated>1719486192362</updated>
       <workItem from="1719486194059" duration="649000" />
-      <workItem from="1719501013323" duration="5702000" />
+      <workItem from="1719501013323" duration="5876000" />
+      <workItem from="1719512767790" duration="1482000" />
     </task>
     <servers />
   </component>
