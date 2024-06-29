@@ -12,7 +12,7 @@ abstract class Program
         Array colors = Enum.GetValues((typeof(ConsoleColor)));
         Console.ForegroundColor = (ConsoleColor)colors.GetValue((r.Next(colors.Length)));
         Console.WriteLine("========================================================================================");
-        Console.WriteLine("                             Welcome to my Codewars repository!");
+        Console.WriteLine("                            Welcome to my Codewars repository!");
         Console.WriteLine("========================================================================================");
         Console.WriteLine();
         Console.WriteLine("Here are the options for what you can do here:");
@@ -22,6 +22,7 @@ abstract class Program
         Console.WriteLine("3. Exit");
         while (flag)
         {
+            Console.WriteLine();
             Console.Write(": ");
             string? choice = Console.ReadLine();
             Console.WriteLine();
@@ -53,8 +54,6 @@ abstract class Program
                     Console.WriteLine("Invalid input, try again!");
                     break;
             }
-
-            Console.WriteLine();
         }
     }
 
@@ -65,7 +64,7 @@ abstract class Program
         List<string> fileList = new List<string>();
         foreach (FileInfo fileInfo in dir.GetFiles())
         {
-            fileList.Add((fileInfo.Name).Replace(".cs", "") + "\t\t" + fileInfo.CreationTimeUtc);
+            fileList.Add((fileInfo.Name).Replace(".cs", "") + "                        " + fileInfo.CreationTime);
         }
         return fileList;
     }
