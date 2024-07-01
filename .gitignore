@@ -1,5 +1,4 @@
-
 .idea/
-codewars/bin/
-codewars/obj/
+bin/
+obj/
 
