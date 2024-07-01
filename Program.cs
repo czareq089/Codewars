@@ -1,6 +1,7 @@
 ﻿namespace codewars;
 using System.IO;
 using static Methods;
+using Exercises;
 
 internal static class Program
 {
@@ -17,13 +18,17 @@ internal static class Program
             Console.WriteLine();
             switch (choice)
             {
-                case "1":
+                case "1": // planning to add this as pages in the future for better visibility
                     ListFiles();
                     break;
                 case "2":
                     ShowProgress();
                     break;
-                case "3" or "":
+                case "3":
+                    Console.WriteLine();
+                    CreateSkeleton();
+                    break;
+                case "4" or "" or "exit" or "c" or "e":
                     flag = false;
                     break;
                 default:

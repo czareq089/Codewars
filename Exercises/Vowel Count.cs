@@ -20,4 +20,12 @@ public static class VowelCount
         
         return vowelCount;
     }
+
+    public static void Execute()
+    {
+        Console.WriteLine("Enter a word:");
+        Console.WriteLine();
+        string str = Console.ReadLine();
+        Console.WriteLine($"{str} has {GetVowelCount(str)} vowels");
+    }
 }
