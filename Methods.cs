@@ -115,7 +115,7 @@ public static class Methods
             string name = Console.ReadLine();
             string pathToExercises = $"Exercises/{name}.cs";
             string scheme =
-                $"//{ReturnXChars(86, '-')}\n{ReturnXChars(42 - name.Length / 2, ' ')}//{name}\n//{ReturnXChars(86, '-')}\n\nnamespace codewars.Exercises;\n\npublic class {name.Replace(' ', '_')}()\n";
+                $"//{ReturnXChars(86, '-')}\n{ReturnXChars(42 - name.Length / 2, ' ')}//{name}\n//{ReturnXChars(86, '-')}\n\nnamespace codewars.Exercises;\n\npublic class {name.Replace(' ', '_')}\n";
             scheme += "{\n\tpublic static type ";
             scheme += $"{name.Replace(" ", "")}()\n";
             scheme += "\t{\n\t\n\t}\n}";

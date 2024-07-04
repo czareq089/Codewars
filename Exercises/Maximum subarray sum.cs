@@ -4,7 +4,7 @@
 
 namespace codewars.Exercises;
 
-public class Maximum_subarray_sum()
+public class Maximum_subarray_sum
 {
 	public static int MaxSequence(int[] arr)
 	{
