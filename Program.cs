@@ -1,7 +1,5 @@
 ﻿namespace codewars;
-using System.IO;
 using static Methods;
-using Exercises;
 
 internal static class Program
 {
