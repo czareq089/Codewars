@@ -22,11 +22,11 @@ internal static class Program
                 case "2":
                     ShowProgress();
                     break;
-                case "3":
-                    Console.WriteLine();
-                    CreateSkeleton();
-                    break;
-                case "4" or "" or "exit" or "c" or "e":
+                // case "3":
+                //     Console.WriteLine();
+                //     CreateSkeleton();
+                //     break;
+                case "3" or "" or "exit" or "c" or "e":
                     flag = false;
                     break;
                 default:

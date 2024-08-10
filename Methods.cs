@@ -27,8 +27,7 @@ public static class Methods
         Console.WriteLine();
         Console.WriteLine("1. List all of the exercises that I've solved (7 kyu+)");
         Console.WriteLine("2. Show the progress for C#");
-        Console.WriteLine("3. Create a skeleton file for a new exercise");
-        Console.WriteLine("4. Exit");
+        Console.WriteLine("3. Exit");
     }
 
     public static string ReturnXChars(int number, char character)
@@ -105,34 +104,34 @@ public static class Methods
         Console.WriteLine();
     }
 
-    public static void CreateSkeleton()
-    {
-        bool flag = true;
-        while (flag)
-        {
-            Console.WriteLine("Please enter the file name: (or type exit to cancel) ");
-            Console.Write(": ");
-            string name = Console.ReadLine();
-            string pathToExercises = $"Exercises/{name}.cs";
-            string scheme =
-                $"//{ReturnXChars(86, '-')}\n{ReturnXChars(42 - name.Length / 2, ' ')}//{name}\n//{ReturnXChars(86, '-')}\n\nnamespace codewars.Exercises;\n\npublic class {name.Replace(' ', '_')}\n";
-            scheme += "{\n\tpublic static type ";
-            scheme += $"{name.Replace(" ", "")}()\n";
-            scheme += "\t{\n\t\n\t}\n}";
-            if (name.Length > 0 && name != "exit")
-            {
-                File.AppendAllText(pathToExercises, scheme);
-                Console.WriteLine("File created successfully!");
-                flag = false;
-            }
-            else if (name == "exit")
-            {
-                flag = false;
-            }
-            else
-            {
-                Console.WriteLine("The file name can not be empty, try again:\n");
-            }
-        }
-    }
+    // public static void CreateSkeleton()
+    // {
+    //     bool flag = true;
+    //     while (flag)
+    //     {
+    //         Console.WriteLine("Please enter the file name: (or type exit to cancel) ");
+    //         Console.Write(": ");
+    //         string name = Console.ReadLine();
+    //         string pathToExercises = $"Exercises/{name}.cs";
+    //         string scheme =
+    //             $"//{ReturnXChars(86, '-')}\n{ReturnXChars(42 - name.Length / 2, ' ')}//{name}\n//{ReturnXChars(86, '-')}\n\nnamespace codewars.Exercises;\n\npublic class {name.Replace(' ', '_')}\n";
+    //         scheme += "{\n\tpublic static type ";
+    //         scheme += $"{name.Replace(" ", "")}()\n";
+    //         scheme += "\t{\n\t\n\t}\n}";
+    //         if (name.Length > 0 && name != "exit")
+    //         {
+    //             File.AppendAllText(pathToExercises, scheme);
+    //             Console.WriteLine("File created successfully!");
+    //             flag = false;
+    //         }
+    //         else if (name == "exit")
+    //         {
+    //             flag = false;
+    //         }
+    //         else
+    //         {
+    //             Console.WriteLine("The file name can not be empty, try again:\n");
+    //         }
+    //     }
+    //}
 }
