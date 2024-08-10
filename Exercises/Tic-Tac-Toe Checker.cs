@@ -2,7 +2,7 @@
                                  //Tic-Tac-Toe Checker
 //--------------------------------------------------------------------------------------
 
-namespace codewars.Exercises;
+/*namespace codewars.Exercises;
 
 //i tried, its not working at the moment
 
@@ -60,3 +60,5 @@ for (int i = 3 - 1; i >= 0; i--)
 }
 
 Console.WriteLine(diagsum);
+
+*/
