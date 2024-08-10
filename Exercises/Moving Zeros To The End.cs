@@ -6,7 +6,7 @@ namespace codewars.Exercises;
 
 using System.Collections;
 using System.Linq;
-public class Kata
+public static partial class Kata
 {
     public static int[] MoveZeroes(int[] arr)
     {
